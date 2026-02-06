@@ -5,6 +5,48 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: #808902;
+    background:#000000;
     
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie-form{
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.movie-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.movie-list{
+    margin-top: 20px;
+}
+.movie-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.movie-item:last-child{
+    border-bottom: none;
+}
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}       
+.movie-item:last-child {
+    border-bottom: none;
 }
