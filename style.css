@@ -6,15 +6,25 @@
 body{
     font-family: 'Poppins', sans-serif;
     background:#000000;
-    
 }
+.New {
+
+    background-image: url("image/hero\ image.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin:0;
+        height: 150vh;
+        margin-left:50px;
+}
+
 nav{
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    padding-top: 30px;
 }
 ul{
     list-style: none;
@@ -61,14 +71,16 @@ color: #852929;
 .search-btn input[type=text]:focus {
     border-color: #333;
 }
-.container{
+.hero-section{
     display:flex;
     margin:50px;
     color: #ffffff;
 }
+
 .movie-list{
     display: flex;
     flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
 }
 
    .movie-item h1{
@@ -86,7 +98,20 @@ font-weight:600;
  margin-top:50px;
   }
 
-   .movie-btn {
+  .movie-btn {
     display: flex;
     margin-top: 40px;
+    gap:20px;
+   }
+   .movie-btn button{
+    background-color:#00ADEF;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color:#fff;
+   }
+  .movie-btn .movie-btn-2 {
+    background: transparent;
+    border:#fff 1px solid; /* Removes the default border */
+    outline: none;/* Removes the outline when the button is clicked/focused */
+    cursor: pointer;
    }
