@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 ul{
     list-style: none;
@@ -69,5 +69,24 @@ color: #852929;
 .movie-list{
     display: flex;
     flex-direction: column;
-
 }
+
+   .movie-item h1{
+font-size:  5rem;
+font-weight:600;
+   }
+   .movie-item h2{
+    font-size: 2.7rem;
+   }
+   .movie-item p{
+    margin-top: 20px;
+    line-height:1.8;
+   }
+   .movie-item p span{
+ margin-top:50px;
+  }
+
+   .movie-btn {
+    display: flex;
+    margin-top: 40px;
+   }
