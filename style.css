@@ -9,13 +9,12 @@ body{
 }
 .New {
 
-    background-image: url("image/hero\ image.webp");
+    background-image: url("image/3.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         margin:0;
-        height: 150vh;
-        margin-left:50px;
+        height: 160vh;
 }
 
 nav{
