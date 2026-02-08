@@ -126,8 +126,26 @@ font-weight:600;
     margin: 30px;
     
    }
-
-   .main-movie-list .movie-iteam{
+   .main-movie-list h2{
     display: flex;
-    
+    flex-direction: column;
    }
+   .movie-continer{
+    display: flex;
+    gap:10px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 30px;
+   }
+
+   .movie-iteam{
+    width:fit-content;
+    padding: 20px;
+   }
+   .movie-iteam img{
+    width:190px;
+    border-radius: 20px;
+   }
+    
+   
+
