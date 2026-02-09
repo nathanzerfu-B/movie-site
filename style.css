@@ -123,27 +123,35 @@ font-weight:600;
 
    .main-movie-list{
     margin: 30px;
+    justify-content:center;
    }
    .main-movie-list h2{
     display: flex;
     flex-direction: column;
-   }
-   .movie-continer{
-    display: flex;
-    background-color: gray;
-    border-radius: 20px;
-    margin: 30px;
-    justify-content: left;
+    margin-bottom: 40px;
    }
 
-   .movie-iteam{
+
+   .movie-continer{
+    display: flex;
     width:fit-content;
+    background-color: gray;
     padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    gap:20px;
    }
-   .movie-iteam img{
-    width:190px;
+
+   .movie-continer img{
+    width:160px;
+    height: 240px;
     border-radius: 20px;
    }
     
-   
-
+.active-movie {
+    width:170px;
+    height:485px;
+}
+.movie-continer .right-arrow img {
+    width:120px;
+}
