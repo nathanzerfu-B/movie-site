@@ -191,3 +191,12 @@ background: rgba(255, 255, 255, 0.2);
     /* Makes the black icon white if needed */
 }
    
+
+
+.catagory-list{
+    display: flex;
+    justify-content: center;
+}
+.catagory-list-iteam{
+justify-content: center;
+}
