@@ -195,6 +195,15 @@ background: rgba(255, 255, 255, 0.2);
 .catagory-contaniuer{
     justify-content: center;
 }
+.catagory-type{
+    display: flex;
+    color: white;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+.catagory-type ul{
+    text-decoration-style: none;
+}
 
 .catagory-list{
     display: flex;
