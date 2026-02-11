@@ -211,7 +211,7 @@ background: rgba(255, 255, 255, 0.2);
 }
 .catagory-list-iteam{
 justify-content: center;
-gap: 5px;
+gap: 15px;
 
 }
 .catagory-list-iteam ul{
@@ -224,4 +224,12 @@ background-color:#00ADEF;
 padding: 10px 30px;
 border-radius: 30px;
 align-items: center;
+}
+
+.catagory-iteam{
+    gap:20px;
+}
+.catagory-iteam img{
+    width: 140px;
+    gap: 30px;
 }
