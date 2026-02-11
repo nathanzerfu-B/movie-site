@@ -192,6 +192,9 @@ background: rgba(255, 255, 255, 0.2);
 }
    
 
+.catagory-contaniuer{
+    justify-content: center;
+}
 
 .catagory-list{
     display: flex;
@@ -199,16 +202,15 @@ background: rgba(255, 255, 255, 0.2);
 }
 .catagory-list-iteam{
 justify-content: center;
+gap: 5px;
 
 }
 .catagory-list-iteam ul{
-    gap:20px;
 
 }
-.catagory-list-iteam ul li .active-list
-{
-
-    border: 2px black solid;
+.catagory-list-iteam ul li a{
+    font-size: small;
+border: 2px black solid;
 background-color:#00ADEF;
 padding: 10px 30px;
 border-radius: 30px;
