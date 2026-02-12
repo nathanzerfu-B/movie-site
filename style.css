@@ -250,14 +250,23 @@ align-items: center;
     margin: 40px;
 }
 .movie-card{
-display: block;
 }
-.movie-card h2{
-    font-size: small;
-    color: rgb(255, 255, 255);
-}
+
 .movie-card img {
     width:140px;
     height: 190px;
 margin-bottom: 20px;
+}
+
+.card-iteam  span{
+display: flex;
+flex-direction:row;
+}
+.card-iteam h2{
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+.mov-year{
+    color: gray;
+    margin-top: 40px;
 }
