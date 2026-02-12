@@ -247,9 +247,17 @@ align-items: center;
 .movie-row{
     display: flex;
     gap: 30px;
+    margin: 40px;
 }
-.movie-section img {
+.movie-card{
+display: block;
+}
+.movie-card h2{
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+.movie-card img {
     width:140px;
     height: 190px;
- 
+margin-bottom: 20px;
 }
