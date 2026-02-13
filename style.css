@@ -270,3 +270,7 @@ flex-direction:row;
     color: gray;
     margin-top: 40px;
 }
+.card-iteam img{
+    width: 20px;
+    height: 20px;
+}
